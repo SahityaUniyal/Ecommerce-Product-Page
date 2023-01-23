@@ -40,7 +40,7 @@ for(var i=0;i<thumbnail.length;i++)
 
 // PRODUCT IMAGE SCALE
 const imageScale=document.querySelector(".product-image");
-imageScale.addEventListener("click",function(){
+activeThumbnail.addEventListener("click",function(){
     imageScale.classList.toggle("product-image-scale");
 });
 
