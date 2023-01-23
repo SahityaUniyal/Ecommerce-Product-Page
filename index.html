@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Product</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  <header class="primary-header">
+    <nav class="navbar">
+      <div class="hamburger">
+        <div class="ham-line"></div>
+        <div class="ham-line"></div>
+        <div class="ham-line"></div>
+      </div>
+      <div class="logo-name"><a href="#"><strong>sneaker</strong></a></div>
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#">Collections</a></li>
+        <li class="nav-item"><a href="#">Men</a></li>
+        <li class="nav-item"><a href="#">Women</a></li>
+        <li class="nav-item"><a href="#">About</a></li>
+        <li class="nav-item"><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="cart-profile">
+      <ul>
+        <li><img class="cart-icon" src="assets/icon-cart.svg" alt=""></li>
+        <li><img class="avatar" src="assets/image-avatar.png" alt=""></li>
+      </ul>
+      <div class="inside-cart">
+        <ul>
+          <li class="cart-title"><b>Cart</b></li>
+          <li class="cart-empty">
+            <p>Your cart is empty</p>
+          </li>
+          <li class="cart-list hidden">
+            <div class="cart-product">
+              <img class="cart-image" src="./assets/image-product-1-thumbnail.jpg" alt="">
+              <div class="product-desc">
+                <p>
+                  <span>Fall Limited Edition Sneakers</span>
+                </p>
+                <p>
+                  <span>$</span>
+                  <span class="price">0</span>
+                  <span>X</span>
+                  <span class="quantity">0</span>
+                  <span>$</span>
+                  <span class="total">0</span> 
+                </p>
+              </div>
+              <img class="delete-item" src="./assets/icon-delete.svg" alt="">
+            </div>
+          </li>
+          <li class="cart-checkout hidden"><b>Checkout</b></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <main class="product">
+    <div class="product-image">
+      <div>
+        <img class="product-image-selected" src="assets/image-product-1.jpg" alt="">
+      </div>
+      <div class="product-image-thumbnail">
+        <picture>
+          <img class="thumbnail-active" src="assets/image-product-1-thumbnail.jpg" alt="">
+        </picture>
+        <picture>
+          <img src="assets/image-product-2-thumbnail.jpg" alt="">
+        </picture>
+        <picture>
+          <img src="assets/image-product-3-thumbnail.jpg" alt="">
+        </picture>
+        <picture>
+          <img src="assets/image-product-4-thumbnail.jpg" alt="">
+        </picture>
+      </div>
+    </div>
+
+    <div>
+      <p class="product-company"><b>Sneaker Company</b></p>
+      <h1 class="product-heading">Fall Limited Edition Sneakers</h1>
+      <p class="product-description">
+        These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.
+      </p>
+      <ul class="product-price">
+        <li class="price"><b>$125.00</b></li>
+        <li class="discount"><b>50%</b></li>
+        <li class="original"><b>$250.00</b></li>
+      </ul>
+      <div class="product-counter-cart">
+        <div class="counter">
+          <p class="decreaseCount"><b>-</b></p>
+          <p class="count">0</p>
+          <p class="increaseCount"><b>+</b></p>
+        </div>
+        <div class="cart">
+          <img src="assets/icon-cart.svg" alt="">
+          <p>Add to cart</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="script/script.js"></script>
+</body>
+</html>
